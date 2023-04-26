@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="webform.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TNS Drive</title>
+,<style>
+    label
+    {
+        color: rgb(235, 152, 36);
+        display:inline-block;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+    <form>
+    <h1 style="color:brown "> TCS Registration</h1>
+   <label for="firstname" id="fname"> Enter First Name:</label>
+       <input type="text" name=""firstname placeholder="Enter the First Name">
+    <br>
+    <br>
+        <label for="lastname" id="lname"> Enter Last Name :</label>
+        <input type="text" name="lastname" placeholder="Enter the last name">
+    <br>
+    <br>
+
+   <label for="password"> Enter Password :</label>
+   <input type="password" name="password" placeholder="Enter the password">
+    <br>
+    <br>
+    <label for="age">Select Your Gender:</label>
+    <select id="age" aria-placeholder="Select the Gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+<br>
+<br>
+
+   <label for="security">Security Question : </label>
+   <select name="security" id="security" >
+    <option value="ops1">Which is your favorite person</option>
+    <option value="ops1">Which is your favorite place</option>
+    <option value="ops1">Which is your secret thing to know</option>
+   </select>
+   <br>
+   <br>
+   <label for="answer">Enter your answer  </label>
+   <input type="text" id="answer  ">
+   <br>
+   <br>
+   <input type="submit" id="submit" value="submit">
+   </h1>
+ </form>
+</body>
+</html>
